@@ -2,22 +2,22 @@
     "steps": {
         "1": {
             "filter": "read",
-            "params": [],
+            "params": ["params1", "params2"],
             "next": "2"
         },
         "2": {
             "filter": "capitalize",
-            "params": [],
+            "params": ["params1", "params2"],
             "next": "3"
         },
         "3": {
             "filter": "reverse",
-            "params": [],
+            "params": ["params1", "params2"],
             "next": "4"
         },
         "4": {
             "filter": "write",
-            "params": [],
+            "params": ["params1", "params2"],
             "next": ""
         }
     }
